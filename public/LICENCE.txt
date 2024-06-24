@@ -1,0 +1,64 @@
+*******************************************************************************
+
+AriaVPN ZKA and Annika javascript library are licensed under the Unlicense License.
+
+The Unlicense
+
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
+
+In jurisdictions that recognize copyright laws, the author or authors of this software dedicate any and all copyright interest in the software to the public domain. We make this dedication for the benefit of the public at large and to the detriment of our heirs and successors. We intend this dedication to be an overt act of relinquishment in perpetuity of all present and future rights to this software under copyright law.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+https://unlicense.org/
+
+*******************************************************************************
+
+Included third party software is licensed under the MIT License, as follows.
+
+The MIT License (MIT)
+
+Copyright (c) 2024 Laravel Developers
+Copyright (c) 2015-2018 Richard Moore <me@ricmoo.com> (aesjs.js)
+Copyright (c) 2015-present, Jon Schlinkert (bitcoin.js)
+Copyright (c) Feross Aboukhadijeh <feross@feross.org> <http://feross.org> (bitcoin.js)
+Copyright (c) 2015 Foliotek Inc (croppie.js)
+Copyright (c) 2009-2013 Jeff Mott (crypto-js)
+Copyright (c) 2013-2016 Evan Vosberg (crypto-js)
+
+https://opensource.org/license/mit
+
+*******************************************************************************
+
+Included third party software is licensed under the Apache License Version 2.0, as follows.
+
+Copyright (c) 2024 Dexie.js
+
+https://www.apache.org/licenses/LICENSE-2.0
+
+*******************************************************************************
+
+Included third party software is licensed under the GPL v3 License, as follows.
+
+QRious v4.0.2 | (C) 2017 Alasdair Mercer | GPL v3 License
+Based on jsqrencode | (C) 2010 tz@execpc.com | GPL v3 License
+
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+*******************************************************************************
+
+Included third party content is licensed under the CC BY-SA 4.0 license, as follows.
+
+Monero - The Essentials.m4v
+monero-cash-video-poster.png
+
+https://www.getmonero.org/get-started/what-is-monero/
+https://www.getmonero.org/legal/
+
+*******************************************************************************
+
+Fonts:
+Anek Latin, Inter - SIL Open Font License
+Raleway - Public domain, GPL, OFL
