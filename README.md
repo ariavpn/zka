@@ -2,6 +2,10 @@
 
 Say goodbye to passwords, usernames, and personal data on third-party servers.
 
+## DEMO
+
+[zka.ariavpn.net](https://zka.ariavpn.net)
+
 ## Prerequisites
 
 -   PHP '^8.3'
