@@ -17,14 +17,14 @@
         
         <meta name="robots" content="index, follow">
         <meta name="title" content="Zero Knowledge Architecture | AriaVPN">
-        <meta name="description" content="AriaVPN is a private VPN service that protects your online identity. Fortify your privacy and get premium VPN access today! We accept Monero, Bitcoin and Bitcoin Cash.">
+        <meta name="description" content="AriaVPN | Say goodbye to passwords, usernames, and personal data on third-party servers.">
         <meta name="domain" content="ariavpn.net">
         <meta name="mobile-web-app-capable" content="yes">
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="{{ url('/') }}">
         <meta property="og:title" content="Zero Knowledge Architecture | AriaVPN">
-        <meta property="og:description" content="AriaVPN is a private VPN service that protects your online identity. Fortify your privacy and get premium VPN access today! We accept Monero, Bitcoin Cash and Bitcoin.">
+        <meta property="og:description" content="AriaVPN | Say goodbye to passwords, usernames, and personal data on third-party servers.">
         <meta property="og:image" content="{{ asset('img/ariavpn-banner.png?v=3') }}">
         <meta property="og:image:width" content="1200">
         <meta property="og:image:height" content="627">
@@ -32,7 +32,7 @@
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="{{ url('/') }}">
         <meta property="twitter:title" content="Zero Knowledge Architecture | AriaVPN">
-        <meta property="twitter:description" content="AriaVPN is a private VPN service that protects your online identity. Fortify your privacy and get premium VPN access today! We accept Monero, Bitcoin Cash and Bitcoin.">
+        <meta property="twitter:description" content="AriaVPN | Say goodbye to passwords, usernames, and personal data on third-party servers.">
         <meta property="twitter:image" content="{{ asset('img/ariavpn-banner.png?v=3') }}">
 
         <link rel="icon" type="image/svg+xml" href="{{ asset('fav/favicon.svg') }}">
@@ -148,8 +148,8 @@
         <script>
 
    
-      let scripts = ["annika/annika-protect.js"];
-     // let scripts = ['libs/dexie.js', 'libs/qrcode.js','dbmodel-min.js', 'libs/qrcode.js', 'libs/aesjs.js', 'libs/bitcoin.js','libs/crypto-js.min.js','app-min.js?v=121'];
+     // let scripts = ["annika/annika-protect.js"];
+     let scripts = ['libs/dexie.js', 'libs/qrcode.js','dbmodel-min.js', 'libs/qrcode.js', 'libs/aesjs.js', 'libs/bitcoin.js','libs/crypto-js.min.js','app-min.js?v=1'];
 
             const loader = new ann.ScriptLoader({ folder: 'js', src: scripts})
             loader.load();
