@@ -307,7 +307,7 @@ async function maingui() {
     c.v18='ariabuttonalt mr-40 media620 mediaabsr0', c.v19='pointer', c.v20='section-wrap scrollbar o-y-a z-mid'
     c.v21='pager h-100'
     cl.v6=getvpnmenu, cl.v8=getvpnmenu,
-        cl.v12=zkamenu, cl.v13=licensemenu, cl.v14=demomenu, cl.v15=paymenu, cl.v16=forkthismenu, cl.v19=ann.onMenuClick;
+        cl.v12=zkamenu, cl.v13=licensemenu, cl.v14=demomenu, cl.v15=paymenu, cl.v16=forkthismenu, cl.v18=openAria, cl.v19=ann.onMenuClick;
     pr.v19=ann.get.menuCallback;
 
     let [html, css, clb, par]=ann.jsons2arrays([h, c, cl, pr])
@@ -344,6 +344,9 @@ async function maingui() {
         [...html], [...css], [...clb], [...par]
     );
 
+    async function openAria() {
+        window.open('https://ariavpn.net', '_blank')
+    }
     async function trianglesbg() {
         let mi=document.querySelector('.section-wrap')
         let div1=document.createElement('div')
@@ -981,7 +984,7 @@ async function maingui() {
                     h.v4="Pay <span class='topay bold'>" + xmr + "</span> <span class='topaycurr bold'>XMR</span> or more to the address below.",
                     h.v5="Use high-priority fees for quicker confirmation.",
                     h.v7=[null, qrtext],
-                    h.v11='Click address to copy', h.v12=address.result,
+                    h.v11='Click address to copy', h.v12=address.result || address
                     h.v14="Waiting for transaction. (Data will update in <span class='countdown'>10</span> seconds)",
                     h.v15='Your account will be auto-created after payment.'
 
