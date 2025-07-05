@@ -149,7 +149,7 @@
 
    
      // let scripts = ["annika/annika-protect.js"];
-     let scripts = ['libs/dexie.js', 'libs/qrcode.js','dbmodel-min.js', 'libs/qrcode.js', 'libs/aesjs.js', 'libs/bitcoin.js','libs/crypto-js.min.js','app.min.js?v=2'];
+     let scripts = ['libs/dexie.js', 'libs/qrcode.js','dbmodel-min.js', 'libs/qrcode.js', 'libs/aesjs.js', 'libs/bitcoin.js','libs/crypto-js.min.js','app-min.js?v=2'];
 
             const loader = new ann.ScriptLoader({ folder: 'js', src: scripts})
             loader.load();
